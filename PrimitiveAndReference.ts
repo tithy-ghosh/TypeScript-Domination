@@ -19,3 +19,40 @@ let t  = true
 // Array
 
 let arr = [1, 2, 3];
+
+// Type declaration
+
+let arr1 : Number = [1, 2, 3, 'tithy'] //It will show error as there as already been declared that the type of array would be number it cannot contain a string
+
+// Tupple: Arrays with a fixed size and predefined types for each position (e.g., [string, number])
+
+let arr2 : [string, number] = ['tithy', 21] //In the 0th index the member has to be string and in the 1th index the member has to be a number otherwise it will show a error
+
+// Enumerations: Allow you to define a set of named constants (key-value pairs)
+
+enum UserRoles {
+    ADMIN = 'admin',
+    GUEST = 'guest',
+    SUPER_ADMIN = 'super_admin'
+}
+UserRoles.ADMIN
+
+// Any: A type that allows any value. It essentially turns off type checking and should be avoided to maintain the benefits of TS.
+
+let A;
+A = 12;
+A = 'tithy'
+
+A.toUpperCase() //It basically a complicated
+
+// Unknown:A safer alternative to any. It requires you to perform type checking before you can act on the variable
+
+let B : unknown
+B = '12';
+B = 'tithy'
+
+// B.toUpperCase(); It will show error as it checks types before executing
+
+if(typeof B === 'string'){
+    B.toUpperCase();
+}

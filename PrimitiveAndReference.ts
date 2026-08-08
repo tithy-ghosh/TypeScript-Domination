@@ -22,7 +22,7 @@ let arr = [1, 2, 3];
 
 // Type declaration
 
-let arr1 : Number = [1, 2, 3, 'tithy'] //It will show error as there as already been declared that the type of array would be number it cannot contain a string
+//let arr1 : Number = [1, 2, 3, 'tithy'] //It will show error as there as already been declared that the type of array would be number it cannot contain a string
 
 // Tupple: Arrays with a fixed size and predefined types for each position (e.g., [string, number])
 

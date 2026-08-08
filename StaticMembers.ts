@@ -11,4 +11,6 @@ class RandomNumber{
     }
 }
 
+RandomNumber.getRandomNumber()
+
 const founder1 = new Founder() //It will not contain static members

@@ -10,5 +10,5 @@ abstract class Payment{
 // const paytm = new Payment(); As the class is abstract it cannot be instantiated. It only can be extended by another class
 
 class paytm extends Payment{
-    
+     
 }

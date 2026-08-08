@@ -28,3 +28,13 @@ class Music {
 }
 
 const music1 = new Music('Amake amar moto thakte dao', 'Anupom Roy', 'something.jpg',300, true)
+
+////------------------------------------------////
+//This Keyword: Used within a class to refer to its own properties and methods
+class Abcd {
+    name = 'tithy';
+
+    changeSomeStuff(){
+        console.log(this.name)
+    }
+}

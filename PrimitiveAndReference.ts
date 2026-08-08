@@ -56,3 +56,11 @@ B = 'tithy'
 if(typeof B === 'string'){
     B.toUpperCase();
 }
+
+// Void : Specifically used as a return type for functions that do not return a value.
+
+function abcd (): void{
+    console.log('hello');
+}
+
+// Must declare using type what things function will return

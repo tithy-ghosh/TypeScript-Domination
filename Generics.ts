@@ -38,6 +38,7 @@ class BottleMaker<T>{
  function Username<T>(a: T, b: T): T{
     // return 'Hey'; Though it is string but it will show error. Cause typescript consider a string is a string literal. But the return type is generics.
     return a; //It will work perfectly
+    return 'Hey' as T;
  }
 
  Username<string>('Hey', 'Hello');

@@ -8,7 +8,7 @@ function Void () : void {
 
 //using callback
 
-function abcd(name: string, callback:(value:string) => void){
+function abcde(name: string, callback:(value:string) => void){
 
 }
 
@@ -36,7 +36,7 @@ function sum1(...args: number[]){
 //Function Overloading
 
 function abcd (a: string): void;
-function abcd (a: string, b: number): number;
+//function abcd (a: string, b: number): number;
 
 function abcd (a: any , b?: any){
     if(typeof a === 'string' && typeof b === undefined){

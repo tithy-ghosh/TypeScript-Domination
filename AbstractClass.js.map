@@ -1,1 +1,0 @@
-{"version":3,"file":"AbstractClass.js","sourceRoot":"","sources":["AbstractClass.ts"],"names":[],"mappings":";;AAAA,MAAe,OAAO;IACI,MAAM;IAAoB,OAAO;IAAvD,YAAsB,MAAc,EAAY,OAAe;sBAAzC,MAAM;uBAAoB,OAAO;IAEvD,CAAC;IACD,kBAAkB,CAAC,MAAa;QAC5B,OAAO,IAAI,CAAC,MAAM,GAAG,CAAC,CAAC;IACvB,CAAC;CACR;AAED,4HAA4H;AAE5H,MAAM,KAAM,SAAQ,OAAO;CAE1B"}
